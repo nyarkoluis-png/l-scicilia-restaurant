@@ -1,0 +1,95 @@
+{
+  "project_name": "L’Antica Sicilia Ristorante & Pizzeria",
+  "app_type": "marketing_site",
+  "theme": "light_italian_tricolore_editorial",
+  "archetype": "ORGANIC & SWISS EDITORIAL HYBRID",
+  "emotional_tone": "Warm, authentic Sicilian hospitality with bold Italian flag color accents (Verde, Bianco, Rosso) and modern Awwwards-level editorial polish.",
+  "color_palette": {
+    "background_primary": "#FDFBF7",
+    "background_secondary": "#F4EFE6",
+    "background_card": "#FFFFFF",
+    "text_primary": "#1A201C",
+    "text_secondary": "#4A554D",
+    "text_muted": "#7A8A7E",
+    "italian_green": "#008C45",
+    "italian_green_hover": "#006C35",
+    "italian_green_light": "#E6F4ED",
+    "italian_red": "#CD212A",
+    "italian_red_hover": "#A51921",
+    "italian_red_light": "#FDF0F1",
+    "gold_accent": "#D97706",
+    "border_subtle": "#E5DEC9",
+    "border_accent": "#008C45"
+  },
+  "typography": {
+    "font_family_heading": "Cormorant Garamond, serif",
+    "font_family_body": "Manrope, sans-serif",
+    "font_family_mono": "JetBrains Mono, monospace",
+    "font_sizes": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3_card": "text-xl sm:text-2xl font-semibold",
+      "body_base": "text-base sm:text-lg leading-relaxed",
+      "caption": "text-xs sm:text-sm tracking-wider uppercase font-semibold"
+    }
+  },
+  "visual_enhancers": {
+    "tricolore_ribbon": "3-stripe Italian flag accent bar (Green #008C45 | White #FFFFFF | Red #CD212A) on headers, card tops, section dividers, and badge borders.",
+    "editorial_marquee": "Slow, smooth drifting marquee ribbon with low-contrast organic text & emblem dividers between sections.",
+    "masked_hero_reveal": "Masked line-by-line reveal animation for hero main heading.",
+    "parallax_hero": "Subtle parallax depth on hero background photo and floating review badge.",
+    "custom_svg_logo": "Elegant vector mark depicting a stylized Sicilian citrus/olive branch with Italian flag accent ring.",
+    "glassmorphism_nav": "Header with backdrop-blur-xl bg-white/85 border-b border-[#008C45]/20 shadow-sm z-50 fixed top-0 w-full"
+  },
+  "image_urls": {
+    "hero_pizza_table": "https://images.unsplash.com/photo-1532117472055-4d0734b51f31?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBzaWNpbGlhbiUyMHBpenphJTIwcGFzdGElMjBpdGFsaWFuJTIwcmVzdGF1cmFudCUyMGZvb2QlMjB3aW5lfGVufDB8fHx8MTc5MTQ1MTcwNHww&ixlib=rb-4.1.0&q=85",
+    "dish_pizza": "https://images.unsplash.com/photo-1563297782-f4cba03a3fb9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHw0fHxhdXRoZW50aWMlMjBzaWNpbGlhbiUyMHBpenphJTIwcGFzdGElMjBpdGFsaWFuJTIwcmVzdGF1cmFudCUyMGZvb2QlMjB3aW5lfGVufDB8fHx8MTc5MTQ1MTcwNHww&ixlib=rb-4.1.0&q=85",
+    "dish_table_group": "https://images.unsplash.com/photo-1724232860199-ca42e61ddb43?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBzaWNpbGlhbiUyMHBpenphJTIwcGFzdGElMjBpdGFsaWFuJTIwcmVzdGF1cmFudCUyMGZvb2QlMjB3aW5lfGVufDB8fHx8MTc5MTQ1MTcwNHww&ixlib=rb-4.1.0&q=85",
+    "dish_wood_fired_pizza": "https://images.unsplash.com/photo-1534649643822-e7431de08af6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwzfHxhdXRoZW50aWMlMjBzaWNpbGlhbiUyMHBpenphJTIwcGFzdGElMjBpdGFsaWFuJTIwcmVzdGF1cmFudCUyMGZvb2QlMjB3aW5lfGVufDB8fHx8MTc5MTQ1MTcwNHww&ixlib=rb-4.1.0&q=85"
+  },
+  "key_components_and_pages": [
+    {
+      "page": "Home (index.tsx)",
+      "sections": [
+        "Fixed Glassmorphism Header with Tricolore Accent & Mobile Drawer",
+        "Hero Section with Masked Line-by-Line Reveal, Rating Badge, Location Tag, Smooth Parallax",
+        "Welcome Bar with Italian Flag Ribbon & Key Highlights (Vor Ort, Abholung, Sommergarten)",
+        "Editorial Marquee Ribbon drifting with Sicilian phrases ('Fatto con Amore', 'Pizza & Pasta', 'La Dolce Vita')",
+        "La Nostra Cucina - Interactive Dish Cards with Italian Red/Green Accent borders on hover",
+        "Sommergarten & Story Section with warm photography grid and signature badge",
+        "Gästestimmen (Google Reviews) with 4.7 Star Rating Highlight & Carousel/Grid",
+        "Besuch & Kontakt (Opening Hours, Phone, Interactive Map/Directions, Order Dialog Trigger)",
+        "Footer with Italian Flag detail, social links & copyright"
+      ]
+    },
+    {
+      "page": "Speisekarte (speisekarte.tsx)",
+      "features": [
+        "Hero Header: 'Unsere Speisekarte - Fatto con amore in Dreieich'",
+        "Category Filter Chips with active Italian Green/Red button states",
+        "Search & Quick Filter Bar for items (e.g. Vegetarian, Spicy, Favorites)",
+        "Menu List showcasing all ~90 items categorized: Pizza, Pizza Bianche, Nudelgerichte, Aus dem Ofen, Fleisch, Fisch, Salate, Desserts, Getränke",
+        "Item Cards with bold name, authentic Sicilian description, and clearly visible prices (video completely removed as requested)",
+        "Interactive Order Modal Trigger for Uber Eats / Lieferando / Telefonische Abholung"
+      ]
+    }
+  ],
+  "motion_and_interactivity": {
+    "lenis_smooth_scroll": "Integrated Lenis smooth scrolling for weightless scroll feel.",
+    "framer_motion_reveals": "Scroll-triggered fade-in and slide-up for cards, section headings, and imagery.",
+    "hover_micro_interactions": "Tricolore border highlight, slight lift (-translate-y-1), button active states.",
+    "mobile_optimization": "Full responsive design down to 390px, touch-friendly tap targets (>44px)."
+  },
+  "instructions_to_main_agent": [
+    "Delete the menu video element and menu video imports from speisekarte.tsx as explicitly requested.",
+    "Ensure all ~90 menu items display exact item names, descriptions, and prices directly in structured card/list format.",
+    "Apply clear Italian flag accents (Verde #008C45, Bianco #FFFFFF, Rosso #CD212A) on buttons, ribbons, headings, and active state indicators over a warm off-white background (#FDFBF7).",
+    "Wrap page root elements with Lenis smooth scroll and framer-motion section animations.",
+    "Add data-testid attributes to all buttons, links, search inputs, menu category filters, and modal targets for automated test stability."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Do NOT use transparent backgrounds for header or modals without backdrop blur and solid tint fallback.",
+    "Maintain high text contrast (APCA AA compliant) against light backgrounds.",
+    "Ensure all interactive elements have explicit data-testid attributes in kebab-case."
+  ]
+}
