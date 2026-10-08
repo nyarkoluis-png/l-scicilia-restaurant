@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion, useMotionValue, useScroll, useSpring, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { ArrowDown, ArrowRight, ArrowUpRight, Heart, MapPin, Phone, ShoppingBag, Sun, Utensils } from "lucide-react";
+import { ArrowDown, ArrowRight, ArrowUpRight, MapPin, Phone, ShoppingBag, Sun, Utensils } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer, Header, OrderButton } from "@/components/restaurant-layout";
 import { MaskLines, Marquee, Reveal } from "@/components/motion";
@@ -101,7 +101,7 @@ function Story() {
         <Reveal><span className="eyebrow eyebrow-red">02 — Un piccolo angolo di Sicilia</span></Reveal>
         <MaskLines as="h2" className="display-h2" lines={["Ein kleiner Ort.", <em key="v">Viele schöne Momente.</em>]} />
         <Reveal delay={0.1}><p>Mitten in Dreieich wartet ein Stück sizilianische Lebensfreude auf dich. Ein gemütlicher Tisch, deine Lieblingspizza und Menschen, mit denen du den Abend teilen möchtest.</p><p>Wenn es draußen warm wird, ist unser Sommergarten der schönste Platz dafür: unter grünen Blättern, mit Lichterketten und ganz entspannt.</p></Reveal>
-        <Reveal delay={0.2}><div className="story-signature">Buon cibo, buona compagnia.</div><div className="story-details"><span><Sun size={14} />Sommergarten</span><span><Heart size={14} />LGBTQ+-freundlich</span><span><Utensils size={14} />Vor Ort & Abholung</span></div>
+        <Reveal delay={0.2}><div className="story-signature">Buon cibo, buona compagnia.</div><div className="story-details"><span><Sun size={14} />Sommergarten</span><span><Utensils size={14} />Vor Ort & Abholung</span></div>
           <a className="text-link" href={restaurant.phoneHref} data-testid="story-call-link">Tisch reservieren <ArrowUpRight size={14} /></a></Reveal>
       </div>
     </div></section>
